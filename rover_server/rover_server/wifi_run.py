@@ -13,7 +13,7 @@ class MotorController(Node):
             'cmd_vel',
             self.cmd_vel_callback,
             10)
-        self.HOST = '192.168.1.20'
+        self.HOST = '192.168.1.17'
         self.PORT = 80
         self.speed = [0, 0, 0, 0]
 
